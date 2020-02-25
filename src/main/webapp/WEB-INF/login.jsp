@@ -34,7 +34,7 @@
 			  </c:if>
 			</form>
 			
-			<h1 style="margin-top: 2em;">Register</h1><hr/>
+			<h1 style="margin-top: 2em;">Registro</h1><hr/>
 			<form action="/register" method="post">
 			  <div class="form-group">
 				<label for="username">Usuario</label>
