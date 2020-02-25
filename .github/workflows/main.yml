@@ -8,14 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
     - name: sast-scan
-      uses: AppThreat/sast-scan-action@master
-      with:
-        type: "java"
-
-    - uses: actions/upload-artifact@v1
-      with:
-        name: reports
-        path: reports
+      uses: AppThreat/sast-scan-action@1.0.2
       
